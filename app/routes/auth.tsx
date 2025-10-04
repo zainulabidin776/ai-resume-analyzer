@@ -21,13 +21,13 @@ const Auth = () => {
 
     }, [auth.isAuthenticated])
   return (
-    <main className="bg-[url('/images/bg-auth.svg')] bg-cover min-h-screen flex items-center justify-center p-4">
+    <main className="min-h-screen flex items-center justify-center p-4">
         <div className="gradient-border shadow-lg w-full max-w-md">
-            <section className="flex flex-col gap-8 bg-white rounded-2xl p-10 items-center text-center">
+            <section className="flex flex-col gap-8 bg-white/95 backdrop-blur-sm rounded-2xl p-10 items-center text-center shadow-xl border border-gray-200/60">
                 <div className="flex flex-col items-center gap-4">
                     <h1 className="text-5xl font-bold">
-                        <span className="text-gray-700">Wel</span>
-                        <span className="text-purple-600">come</span>
+                        <span className="text-gray-800">Wel</span>
+                        <span className="text-indigo-600">come</span>
                     </h1>
                     <h2 className="text-lg text-gray-600 font-medium">
                         Log In to Continue Your Job Journey
